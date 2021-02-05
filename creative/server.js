@@ -47,8 +47,8 @@ db.collection('customers').insertOne(data,function(err, collection){
         console.log("Record inserted Successfully"); 
               
     }); 
-          
-    return res.send("Your message has been sent. Thank you!")
+          return res.render("contact")
+    //return res.send("Your message has been sent. Thank you!")
 })
 
 app.get('/', function(req, res) {
