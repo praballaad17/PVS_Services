@@ -84,3 +84,11 @@
 .row-site-header {
   background-color: white;
 }
+/*-----------------------------icon------------------------------------------------------------*/
+.img-icon {
+  height: 124px;
+  width: 64px;
+}
+.border-second {
+  border-width: 3px;
+}
